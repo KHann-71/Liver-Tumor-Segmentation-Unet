@@ -30,7 +30,7 @@ To install all dependencies, run:
 ```bash
 pip install -r requirements.txt
 
----
+
 
 ## **Dataset**
 The dataset consists of CT scan slices of the liver and corresponding tumor segmentation masks.
@@ -58,5 +58,9 @@ Below are the results for all experiments:
 | 8              | 4          | 1e-4              | 0.8111         | 0.6822        | 1h21m27s                |
 | 4              | 8          | 1e-4              | 0.8315         | 0.7116        | 2h44m16s                |
 | 8              | 8          | 1e-4              | 0.7837         | 0.6444        | 2h39m26s                |
+
+
+
+
 
 
