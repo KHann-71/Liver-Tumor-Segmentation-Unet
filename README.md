@@ -32,7 +32,6 @@ pip install -r requirements.txt
 
 ---
 
-
 ## **Dataset**
 The dataset consists of CT scan slices of the liver and corresponding tumor segmentation masks.
 
@@ -43,15 +42,6 @@ The dataset consists of CT scan slices of the liver and corresponding tumor segm
 
 Dataset: [LiTS Challenge](https://competitions.codalab.org/competitions/17094)  
 Reference Paper: [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
-
----
-
-
-## **Dependencies**
-All required packages are listed in `requirements.txt`.  
-To install all dependencies, run:
-```bash
-pip install -r requirements.txt
 
 ---
 
@@ -69,5 +59,4 @@ Below are the results for all experiments:
 | 4              | 8          | 1e-4              | 0.8315         | 0.7116        | 2h44m16s                |
 | 8              | 8          | 1e-4              | 0.7837         | 0.6444        | 2h39m26s                |
 
----
 
