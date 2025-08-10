@@ -1,0 +1,36 @@
+# Repro & device
+seed: 42
+device: cuda   # fallback to cpu inside code if CUDA not available
+
+# -------------------- Data settings --------------------
+data:
+  root_raw: data/raw      # expected: images/*.nii.gz, masks/*.nii.gz
+  clamp: [-45, 167]       # HU windowing then min-max to [0,1]
+  input_size: [512, 512]  # resize target (H,W)
+  split: {train: 0.8, val: 0.1, test: 0.1}
+  tumor_only_train: false # set true to sample only slices containing tumor for train
+
+# -------------------- Model settings --------------------
+model:
+  in_channels: 1
+  out_channels: 1
+  base_channels: 64       # width of the first U-Net block
+
+# -------------------- Train settings --------------------
+train:
+  epochs: 8
+  batch_size: 8
+  lr: 1e-5
+  optimizer: adam
+  loss: dice              # options: dice | bce_dice
+  bce_weight: 0.5         # used only if loss=bce_dice
+  num_workers: 4
+  amp: true               # mixed precision on CUDA
+
+# -------------------- Evaluation / metrics --------------------
+eval:
+  threshold: 0.5          # binarization threshold for metrics
+
+# -------------------- Output --------------------
+# NOTE: change this per experiment to avoid overwriting
+out_dir: experiments/bs8_ep8_lr1e-5
