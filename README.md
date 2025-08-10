@@ -30,7 +30,7 @@ To install all dependencies, run:
 ```bash
 pip install -r requirements.txt
 
-
+```
 
 ## **Dataset**
 The dataset consists of CT scan slices of the liver and corresponding tumor segmentation masks.
