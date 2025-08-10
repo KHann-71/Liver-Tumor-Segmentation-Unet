@@ -1,8 +1,11 @@
+
+![liver-tumor](https://www.aimspress.com/aimspress-data/era/2023/8/PIC/era-31-08-221-g001.jpg)
+
+
 # **Liver Tumor Segmentation with U-Net**
 This project was developed for the **DS304** course, focusing on **liver tumor segmentation** using the **U-Net** architecture.  
 It applies deep learning to medical image analysis, with experiments comparing various hyperparameters.
 
-![liver-tumor]([https://upload.wikimedia.org/wikipedia/commons/8/89/CT_Liver_Segmentation.png](https://www.researchgate.net/profile/Dionisios-Vrochides/publication/316194512/figure/fig2/AS:486596953808897@1493025162563/Tumor-location-by-hepatic-segment.png))
 
 ---
 
