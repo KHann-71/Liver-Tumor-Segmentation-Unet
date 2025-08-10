@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ---
 
 
-## Dataset
+## **Dataset**
 The dataset consists of CT scan slices of the liver and corresponding tumor segmentation masks.
 
 | **Folder**        | **Description**                          |
@@ -46,7 +46,7 @@ Reference Paper: [U-Net: Convolutional Networks for Biomedical Image Segmentatio
 
 ---
 
-## Performance
+## **Performance**
 Below are the results for all experiments:
 
 | **Batch Size** | **Epochs** | **Learning Rate** | **Dice Score** | **IoU Score** | **Training Time (min)** |
