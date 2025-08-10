@@ -46,6 +46,15 @@ Reference Paper: [U-Net: Convolutional Networks for Biomedical Image Segmentatio
 
 ---
 
+
+## **Dependencies**
+All required packages are listed in `requirements.txt`.  
+To install all dependencies, run:
+```bash
+pip install -r requirements.txt
+
+---
+
 ## **Performance**
 Below are the results for all experiments:
 
